@@ -1,0 +1,184 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<title>Web Pribadi</title>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
+<link rel="stylesheet" href="layout/styles/layout.css" type="text/css" />
+<script type="text/javascript" src="layout/scripts/jquery.min.js"></script>
+<script type="text/javascript" src="layout/scripts/jquery.cycle.min.js"></script>
+<script type="text/javascript">
+$(function() {
+    $('#featured_slide').after('<div id="fsn"><ul id="fs_pagination">').cycle({
+        timeout: 5000,
+        fx: 'fade',
+        pager: '#fs_pagination',
+        pause: 1,
+        pauseOnPagerHover: 0
+    });
+});
+</script>
+</head>
+<body id="top">
+<div class="wrapper col0">
+  <div id="topline">
+    <ul><a href="https://www.facebook.com/akbarkatili.katili"><img src="images/demo/1024px-Facebook_icon.svg.png" width="30" height="30" /></a></ul>
+     <ul><a href="https://www.google.com/"><img src="images/demo/Google-Chrome-icon.png" width="30" height="30"/></a></ul>
+      <ul><a href="https://abay22.blogspot.com/"><img src="images/demo/blogger-logo-icon-png-2.png" width="30" height="30"></a></ul>
+      <ul><a href="https://www.youtube.com/"><img src="images/demo/youtube-1495277_960_720.png" width="50" height="30"/></a></ul>
+    <div id="search">
+      <form action="#" method="post">
+        <fieldset>
+          <legend>Site Search</legend>
+          <input type="text" value="Search Our Website&hellip;"  onfocus="this.value=(this.value=='Search Our Website&hellip;')? '' : this.value ;" />
+          <input type="submit" name="go" id="go" value="Search" />
+        </fieldset>
+      </form>
+    </div>
+    <br class="clear" />
+  </div>
+</div>
+<!-- ####################################################################################################### -->
+<div class="wrapper col1">
+  <div id="header">
+    <div id="topnav">
+      <ul>
+        <li><a href="pendidikan.html">Pendidikan</a>Riwayat</li>
+        <li><a href="Web Mandiri/index1.html">Web Mandiri</a>Web Lainnya</li>
+        <li><a href="Profil.html">Profil</a><span>Tentang Saya </span></li>
+        <li class="active"><a href="index.html">Homepage</a><span>Halaman  Utama</span></li>
+      </ul>
+    </div>
+    <div id="logo">
+      <h1><a href="index.html"><strong>W</strong>eb <strong>P</strong>ribadi</a></h1>
+      <p>Project Matakuliah Design Web</p>
+    </div>
+    <br class="clear" />
+  </div>
+</div>
+<!-- ####################################################################################################### -->
+<div class="wrapper col2">
+  <div id="featured_slide">
+    <div class="featured_box">
+      <div class="floater">
+        <h2>Slide 1</h2>
+      </div>
+      
+      <img src="images/demo/1.jpg" /> </div>
+    <div class="featured_box">
+      <div class="floater">
+        <h2>Slide 2</h2>
+      </div>
+     
+      <img src="images/demo/2.jpg" /></div>
+    <div class="featured_box">
+      <div class="floater">
+        <h2>Slide 3</h2>
+	  </div>
+      
+      <img src="images/demo/5.jpg" /> </div>
+    <div class="featured_box">
+      <div class="floater">
+        <h2>Slide 4</h2>
+	  </div>
+      
+      <img src="images/demo/4.jpg" /> </div>
+  </div>
+</div>
+<!-- ####################################################################################################### -->
+<div class="wrapper col3">
+  <div class="container">
+    <div class="content">
+      <div id="topstory">
+        <h2 align="center">Postingan</h2>
+        <ul>
+          <li><img src="images/demo/gedung-poli.png" width="195" height="130" /><H6 align="center">Gedung Pusat Polimdo</H6>
+            <p align="justify">Politeknik Negeri Manado adalah sebuah perguruan tinggi negeri yang terdapat di Kota Manado, Sulawesi Utara, Indonesia.</p>
+          </li>
+          <li><img src="images/demo/teknik_informatika_siedoo.jpg" width="195" height="130" />
+            <p align="justify">Informatika (Inggris: Informatics) merupakan disiplin ilmu yang mempelajari transformasi fakta berlambang yaitu data maupun informasi pada mesin berbasis komputasi.</p>
+          </li>
+           <li class="last"><img src="images/demo/200px-JA_Katili.jpg" width="195" height="200" /><H6 align="center">J.A Katili</H6>
+            <p align="justify">Prof. Dr. John Ario Katili atau lebih dikenal dengan nama J.A. Katili (lahir di Gorontalo, Indonesia, 9 Juni 1929 – meninggal di Jakarta, Indonesia, 19 Juni 2008 pada umur 79 tahun) adalah seorang saintis di bidang geologi, pendidik, birokrat, politisi, serta diplomat Indonesia. Ia juga dikenal pernah mendalami ilmu-ilmu sastra secara langsung dari HB Jassin, Idroes dan AOH Kartahadimaja. Katili adalah Doktor Geologi pertama di ITB dan juga Indonesia.</p>
+            </li>
+        </ul>
+        <br class="clear" />
+      </div>
+      <div id="latestnews">
+        <h2>Musik</h2>
+        <ul>
+          <li>
+	  	  <li> Rizki Febian <a href="vidio/1.mp4"> - Ragu -</a> </li>
+			<li> Tulus <a href="vidio/2.mp4"> - Monokrom -</a> </li>
+          	<li> Bruno Mars <a href="vidio/4.mp4"> - That's What I Like -</a></li>
+			<li> Shaw Mendes <a href="vidio/7.mp4">- Imagination -</a> </li>
+			<li> Maroon 5 <a href="vidio/6.mp4">- Girls Like You</a></li>
+            <br class="clear" />
+          </li>
+        </ul>
+      </div>
+    </div>
+    <div class="column">
+      <div class="sponsors">
+        <h2>Tayangan Favorit</h2>
+        <div class="b_350">
+		
+		<a href="#">
+		<div>
+		<video controls="controls" width=321>
+			<source src="vidio/Stand Up Comedy Academy 3   Nopek, Madiun - Hari Tani Nasional(360p).mp4 " type="video/mp4"></a></div>
+        </video>
+		</div>
+		<div class="b_225">
+          <div class="clear"></div>
+        </div>
+      </div>
+    </div>
+    <br class="clear" />
+  </div>
+</div>
+<!-- ####################################################################################################### -->
+<div class="wrapper col4">
+  <div id="footer">
+    <div class="box1">
+      <h2>AKBAR KATILI</h2>
+      <img class="imgl" src="images/demo/6.jpg" width="135" height="180" />
+      <p align="justify">Adalah Seorang Mahasiswa di Politeknik Negeri Manado yang mengambil jurusan Teknik Elektro serta Program Studi Informatika, yang Berasal dari SMKN 1 Kotabunan desa buyat kec.kotabunan BOLTIM. </p>
+      <p align="justify">Bertempat tinggal di desa togid kec.tutuyan BOLTIM, </p>
+    </div>
+    <div class="box contactdetails">
+      <h2>Singkat Tentang Saya!</h2>
+      <ul>
+        <li>Raza Akbar Hakim Katili</li>
+        <li>Akbar/Abay/Abang</li>
+        <li>Togid</li>
+        <li>WA : 0823-4841-6330</li>
+        <li>FB : Raza Akbar Hakim Katili</li>
+        <li>Email: Razaakbar439@gmail.com</li>
+        <li>Blog : Abay22.blogspot.com</li>
+      </ul>
+    </div>
+    <div class="box flickrbox">
+      <h2>Daftar Foto  !</h2>
+      <div class="wrap">
+        <div class="fix"></div>
+        <div class="flickr_badge_image" id="flickr_badge_image1"><img src="images/demo/7.jpg" width="80" height="80" /></div>
+        <div class="flickr_badge_image" id="flickr_badge_image2"><img src="images/demo/8.jpg" width="80" height="80" /></div>
+        <div class="flickr_badge_image" id="flickr_badge_image3"><img src="images/demo/9.jpg" width="80" height="80" /></div>
+        <div class="flickr_badge_image" id="flickr_badge_image4"><img src="images/demo/10.jpg" width="80" height="80" /></div>
+        <div class="flickr_badge_image" id="flickr_badge_image5"><img src="images/demo/11.jpg" width="80" height="80" /></div>
+        <div class="flickr_badge_image" id="flickr_badge_image6"><img src="images/demo/14.jpg" width="80" height="80" /></div>
+        <div class="fix"></div>
+      </div>
+    </div>
+    <br class="clear" />
+  </div>
+</div>
+<!-- ####################################################################################################### -->
+<div class="wrapper col5">
+  <div id="copyright">
+    <p align="center">Copyright &copy; 2019 - Akbar Katili </p>
+    <br class="clear" />
+  </div>
+</div>
+</body>
+</html>
